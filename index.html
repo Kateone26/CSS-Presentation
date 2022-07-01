@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/webslides.css">
+    <title>presentation</title> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main role="main">
+        <article id="webslides" class="horizontal">
+            <!-- slide 1 -->
+            <section>
+                <!-- <span class="background" style="background-image:url('images/images.jfif')"></span> -->
+
+                <div class="wrap">
+                    <h1><strong>CSS Presentation</strong></h1>
+                    <p class="text-intro">
+                        Cascading Style Sheets - CSS
+                    </p>
+                </div>
+            </section>
+            <!-- slide 2 -->
+            <section>
+                <div class="wrap size-50 ">
+                    <h2><strong>Definition of CSS</strong></h2>
+                    <p class="text-intro">CSS - is a style sheet language used for describing the look and formatting of a document written in a markup language. you write css rules in elements, and modify properties of those elements such as color, background color, width, border, font etc.</p>
+                    <p>
+                        Three versions of CSS exist: CSS1, CSS2 and CSS3.
+                    </p>
+                </div>
+            </section>
+
+            <!-- slide 3 -->
+            <section>
+                <div class="wrap slide3">
+                    <ul class="flexblock features">
+                        <li>
+                            <div>
+                                <h2>CSS1</h2>
+                                <h3>Published in December 1996, Among its capabilities are support for:
+                                </h3><br>
+                                <ul class="description">
+                                    <li>Font properties such as typeface and emphasis</li>
+                                    <li>Color of text, backgrounds and other elements</li>
+                                    <li>Text atributes such as spacing between words, tellers and lines of text</li>
+                                    <li>alignment of text, images, tables and other elements</li>
+                                    <li>Margin, border,padding and positioning for most elements</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>CSS2</h2>
+                                <h3>CSS level 2 specification was developed by the W3C and published as a recommendation in May 1998. A superset of CSS 1, CSS 2 includes a number of new capabilities like:
+                                </h3><br>
+                                <ul class="description">
+                                    <li>Positioning</li>
+                                    <li>Visual Formatting</li>
+                                    <li>Media Types</li>
+                                    <li>Interfaces</li>
+                                    <li>Z-index</li>
+                                    <li>And new font properties such as shadows.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>CSS3</h2>
+                                <h3>Work on CSS level 3 started around the time of publication of the original CSS 2 recommendation. The earliest CSS 3 drafts were published in June 1999:
+                                </h3><br>
+                                <ul class="description">
+                                    <li>User Interfaces</li>
+                                    <li>Accessibility</li>
+                                    <li>Columnar layout</li>
+                                    <li>Mobile devices</li>
+                                    <li>Scalable Vector Graphics</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- slide 4 -->
+
+            <section>
+                <div class="wrap">
+                    <div class="grid vertica-align align-center">
+                        <div class="column">
+                            <h3><strong>Syntax of CSS</strong></h3>
+                            <p class="text-intro">
+                                the CSS syntax is made up of 5 parts:
+                            </p>
+                            <ul class="description">
+                                <li>Selector</li>
+                                <li>Property/value</li>
+                                <li>Declaration</li>
+                                <li>Declaration block</li>
+                                <li>Curly braces</li>
+                            </ul>
+                        </div>
+                        <div class="column ">
+                            <img class="slide4-img" src="images/css-syntax.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 5 -->
+            <section>
+                <div class="wrap">
+                    <div class="grid vertica-align align-center">
+                        <div>
+                            <h3><strong>Selector</strong></h3>
+                            <p class="text-intro">
+                                Selectors are used to declare which part of the markup a style applies to.<br><br> 3 types of selectors:
+                            </p>
+                            <ul class="description">
+                                <li>1) Tag selectors (body, p, div, a)</li>
+                                <li>2) ID selectors (#wrapper, #sidebar)</li>
+                                <li>3) Class selectors (.content, .menu)</li>
+                            </ul><br><br>
+                            *The selector is normally the HTML element you want to style<br><br>
+                            *Selectors should never start with a number, nor should they have spaces in them
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- slide 6 -->
+            <section>
+                <div class="wrap">
+                    <div class="grid vertica-align align-center">
+                        <div class="column">
+                            <h3><strong>Property & Value</strong></h3>
+                            <p class="text-intro">
+                                The property is the style attribute you want to change. each property has a value
+                            </p>
+                            <img src="images/css-syntax (1).png" alt=""><br>
+                            <p>*Properties are separated from their respective values by colons:<br>*Pairs are separated from each other by semicolons;</p>
+                        </div>
+                        <div class="column ">
+                            <h3><strong>Declaration</strong></h3>
+                            <p class="text-intro">
+                                Definition: Each CSS line that includes property and value
+                            </p>
+                            <img src="images/css-syntax-1469106898.png" alt=""><br>
+                            <p>*Each declaration consists of a property and value</p>
+                        </div>
+                        <div class="column ">
+                            <h3><strong>Declaration Block</strong></h3>
+                            <p class="text-intro">
+                                A declaration block consists of a list of declarations in braces. Each declaration itself consists of a property and a value. If there are multiple declarations in a block.
+                            </p>
+                        </div>
+                        <div class="column ">
+                            <h3><strong>Curly Braces</strong></h3>
+                            <p class="text-intro">
+                                The curly braces contain the properties of the element you want to manipulate, and the value that you want to change them to. The curly braces plus their content is called a declaration block.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 7 -->
+            <section>
+                <div class="wrap">
+                    <h2><strong>How CSS is Applied to a Web Page</strong></h2>
+                    <p>There are three ways of installing a style sheet:</p>
+                    <ul class="flexblock gallery">
+                        <li>
+                                <figure>
+                                    <figcaption>
+                                        <h2>Inline style</h2>
+                                    </figcaption>
+                                </figure>
+                                <p>An inline style loses many of the advantages of style sheets by mixing content with presentation.</p><br>
+                                <p>To use inline style you use the style attribute in the relevant tag. The style attribute can contain any CSS property. The example shows how to change the color and the left margin of a paragraph:</p><br>
+                                <img src="images/Capture.PNG" alt="">
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h2>Internal style sheet</h2>
+                                </figcaption>
+                            </figure>
+                            <p>An internal style sheet should be used when a single document has a unique style. You define internal styles in the head section of an HTML page, by using the style tag, like this:</p><br>
+                            <img src="images/Capture2.PNG" alt="">
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h2>External style sheet</h2>
+                                </figcaption>
+                            </figure>
+                            <p>An external style sheet is ideal when the style is applied to many pages. With an external style sheet, you can change the look of an entire Web site by changing one file. Each page must link to the style sheet using the link tag. The link tag goes inside the head section: </p><br>
+                            <img src="images/dd.png" alt="">
+                            <p>You can link a single style sheet to a multiple documents in your Web site by using the link element or the @import element</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- slide 8 -->
+            <section>
+                <div class="wrap">
+                    <h2><strong>Cascading order</strong></h2>
+                    <p>What style will be used when there is more than one style specified for an HTML element?<br>We can say taht all the styles will "cascade" into a new "virtual" style sheet by the following rules, where number four has the highest priority:</p>
+                    <ul class="description">
+                        <li>1) Browser default</li>
+                        <li>2) External style sheet</li>
+                        <li>3) Internal style sheet (in the head section)</li>
+                        <li>4) Inline style (inside an HTML element)</li>
+                    </ul>
+                    <p>An inline style (inside an HTML element) has the highest priority, which means taht it will override a style defined inside the head tag, or in an external style sheet, or in a browser (a default value)</p>
+                </div>
+
+            </section>
+
+            <!-- slide 9 -->
+            <section>
+                <div class="wrap">
+                    <div class="grid vertica-align align-center">
+                        <div class="column">
+                            <h2><strong>CSS Box Model</strong></h2>
+                            <p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.<br>The CSS box model is essentially a box taht wraps around HTML elements and it consists of: margins, borders, padding and the actual content.<br>The box model allows us to place a border around elements and space elements in relation to other elements.</p>
+                            <ul class="description">
+                                <li>Margin - Clears an area around the border. The margin does not have a background color, it is completely transparent.</li>
+                                <li>Border - A border that goes around the padding and content. The border is inherited from the color property of the box.</li>
+                                <li>Padding - Clears an area around the content. The padding is affected by the background color of the box.</li>
+                                <li>Content - The content of the box, where text and images appear.</li>
+                            </ul>
+                            <p>An inline style (inside an HTML element) has the highest priority, which means taht it will override a style defined inside the head tag, or in an external style sheet, or in a browser (a default value)</p>
+                        </div>
+                        <div class="column">
+                            <img class="slide4-img" src="images/boxmodel.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- slide 10 -->
+            <section>
+                <div class="wrap">
+                    <div class="content-right text-serif">
+                        <h2><strong>Thank you!</strong></h2>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    
+
+    <script src="js/webslides.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+</body>
+</html>
